@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: AppiumProject.Selenium.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 1.639 s <<< FAILURE! - in AppiumProject.Selenium.AppTest
+setUp(AppiumProject.Selenium.AppTest)  Time elapsed: 1.359 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'Prakhars-MacBook-Air.local', ip: '2406:3003:2004:28ef:c5e1:b52c:1886:9fae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3', java.version: '17.0.3'
+Driver info: driver.version: AndroidDriver
+	at AppiumProject.Selenium.AppTest.setUp(AppTest.java:37)
+Caused by: java.net.ConnectException: Connection refused
+	at AppiumProject.Selenium.AppTest.setUp(AppTest.java:37)
+
